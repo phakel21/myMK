@@ -1,8 +1,8 @@
 package com.Rpg.controller;
 
-import com.Rpg.dto.CharacterDTO;
+import com.Rpg.dto.MyCharacterDTO;
 import com.Rpg.dto.HeroDTO;
-import com.Rpg.dto.UserDTO;
+import com.Rpg.dto.MyUserDTO;
 import com.Rpg.service.MyCharacterService;
 import com.Rpg.service.HeroService;
 import com.Rpg.service.MyUserService;
@@ -62,12 +62,12 @@ public class AdminHeroController {
     @GetMapping("/hero/{name}/edit")
     public String update(Model model,
                          @PathVariable("name") String name) {
-        HeroDTO heroDTO = heroService.getByName(name);
+        HeroDTO heroDTO = heroService.getOne(name);
         model.addAttribute("hero", heroDTO);
-        List<CharacterDTO> characterDTOS = myCharacterService.getAll();
-        model.addAttribute("myCharacters", characterDTOS);
-        List<UserDTO> userDTOS = myUserService.getAll();
-        model.addAttribute("myUsers", userDTOS);
+        List<MyCharacterDTO> myCharacterDTOS = myCharacterService.getAll();
+        model.addAttribute("myCharacters", myCharacterDTOS);
+        List<MyUserDTO> myUserDTOS = myUserService.getAll();
+        model.addAttribute("myUsers", myUserDTOS);
         return "updateAdminHero";
     }
 

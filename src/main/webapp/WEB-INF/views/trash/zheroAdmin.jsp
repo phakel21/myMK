@@ -119,14 +119,14 @@
         <%--<div class="col-sm-8 col-sm-offset-2">--%>
             <%--<form:form class="form-horizontal" action="/addLocation" method="post">--%>
                 <%--<div class="form-group">--%>
-                    <%--<label for="locationName" class="control-label col-sm-2">Location name:</label>--%>
+                    <%--<label for="locationName" class="control-label col-sm-2">location name:</label>--%>
                     <%--<div class="col-sm-10">--%>
                         <%--<input type="text" name="locationName" id="locationName" class="form-control"/>--%>
                     <%--</div>--%>
                 <%--</div>--%>
                 <%--<div class="form-group">--%>
                     <%--<div class="col-sm-10 col-sm-offset-2">--%>
-                        <%--<button class="btn btn-success" type="submit">add Location</button>--%>
+                        <%--<button class="btn btn-success" type="submit">add location</button>--%>
                     <%--</div>--%>
                 <%--</div>--%>
             <%--</form:form>--%>

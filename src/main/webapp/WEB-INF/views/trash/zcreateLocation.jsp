@@ -11,7 +11,7 @@
     <title>Hello Admin</title>
 </head>
 <body>
-<%--<a href="/admin/location">Location administration</a>--%>
+<%--<a href="/admin/location">location administration</a>--%>
 <%--<a href="/admin/hero">Hero administration</a>--%>
 
 <div class="container">

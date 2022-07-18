@@ -1,6 +1,7 @@
 package com.Rpg.service.implement;
 
-import com.Rpg.dto.CharacterDTO;
+import com.Rpg.config.exception.myCharacter.MyCharacterNotFoundException;
+import com.Rpg.dto.MyCharacterDTO;
 
 import com.Rpg.entity.MyCharacter;
 import com.Rpg.repository.MyCharacterRepository;
@@ -17,6 +18,7 @@ import javax.transaction.Transactional;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class MyCharacterServiceImplement implements MyCharacterService {
@@ -34,37 +36,37 @@ public class MyCharacterServiceImplement implements MyCharacterService {
         this.imageService = imageService;
     }
 
-    private MyCharacter map(CharacterDTO characterDTO) {
+    private MyCharacter map(MyCharacterDTO myCharacterDTO) {
         MyCharacter myCharacter = new MyCharacter();
-        myCharacter.setName(characterDTO.getName());
-        myCharacter.setHp(characterDTO.getHp());
-        myCharacter.setMp(characterDTO.getMp());
-        myCharacter.setPower(characterDTO.getPower());
-        myCharacter.setImage(characterDTO.getImage());
+        myCharacter.setName(myCharacterDTO.getName());
+        myCharacter.setHp(myCharacterDTO.getHp());
+        myCharacter.setMp(myCharacterDTO.getMp());
+        myCharacter.setPower(myCharacterDTO.getPower());
+        myCharacter.setImage(myCharacterDTO.getImage());
         return myCharacter;
     }
 
-    private CharacterDTO map(MyCharacter myCharacter) {
-        CharacterDTO characterDTO = new CharacterDTO();
-        characterDTO.setName(myCharacter.getName());
-        characterDTO.setHp(myCharacter.getHp());
-        characterDTO.setMp(myCharacter.getMp());
-        characterDTO.setPower(myCharacter.getPower());
-        characterDTO.setImage(myCharacter.getImage());
-        return characterDTO;
+    private MyCharacterDTO map(MyCharacter myCharacter) {
+        MyCharacterDTO myCharacterDTO = new MyCharacterDTO();
+        myCharacterDTO.setName(myCharacter.getName());
+        myCharacterDTO.setHp(myCharacter.getHp());
+        myCharacterDTO.setMp(myCharacter.getMp());
+        myCharacterDTO.setPower(myCharacter.getPower());
+        myCharacterDTO.setImage(myCharacter.getImage());
+        return myCharacterDTO;
     }
 
-    private List<CharacterDTO> map(List<MyCharacter> myCharacters) {
-        List<CharacterDTO> characterDTOS = new ArrayList<>();
+    private List<MyCharacterDTO> map(List<MyCharacter> myCharacters) {
+        List<MyCharacterDTO> myCharacterDTOS = new ArrayList<>();
         for (MyCharacter myCharacter : myCharacters) {
-            characterDTOS.add(map(myCharacter));
+            myCharacterDTOS.add(map(myCharacter));
         }
-        return characterDTOS;
+        return myCharacterDTOS;
     }
 
     @Override
-    public void create(CharacterDTO characterDTO, MultipartFile multipartFile) throws IOException {
-        MyCharacter myCharacter = map(characterDTO);
+    public void create(MyCharacterDTO myCharacterDTO, MultipartFile multipartFile) throws IOException {
+        MyCharacter myCharacter = map(myCharacterDTO);
         String resultFileName = imageService.saveFile(charactersPath, multipartFile);
         myCharacter.setImage(resultFileName);
         save(myCharacter);
@@ -75,7 +77,7 @@ public class MyCharacterServiceImplement implements MyCharacterService {
     }
 
     @Override
-    public CharacterDTO getByName(String name) {
+    public MyCharacterDTO getByName(String name) {
         return map(findOne(name));
     }
 
@@ -84,7 +86,7 @@ public class MyCharacterServiceImplement implements MyCharacterService {
     }
 
     @Override
-    public List<CharacterDTO> getAll() {
+    public List<MyCharacterDTO> getAll() {
         return map(findAll());
     }
 
@@ -142,4 +144,12 @@ public class MyCharacterServiceImplement implements MyCharacterService {
         save(myCharacter);
     }
 
+    @Override
+    public MyCharacterDTO getOne(String name) {
+        Optional<MyCharacter> optionalMyCharacter = myCharacterRepository.findMyCharacterByName(name);
+        if(optionalMyCharacter.isPresent()){
+            return map(optionalMyCharacter.get());
+        }
+        throw new MyCharacterNotFoundException("Character: "+ name +" not found");
+    }
 }

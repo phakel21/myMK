@@ -11,7 +11,7 @@ import java.util.Objects;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CharacterDTO {
+public class MyCharacterDTO {
 
     private Long id;
 

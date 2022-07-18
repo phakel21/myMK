@@ -1,5 +1,6 @@
 package com.Rpg.service.implement;
 
+import com.Rpg.config.exception.hero.HeroNotFoundException;
 import com.Rpg.dto.HeroDTO;
 import com.Rpg.dto.MonsterDTO;
 import com.Rpg.entity.*;
@@ -14,6 +15,7 @@ import org.springframework.stereotype.Service;
 import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class HeroServiceImplement implements HeroService {
@@ -149,4 +151,21 @@ public class HeroServiceImplement implements HeroService {
         save(hero);
     }
 
+    @Override
+    public HeroDTO getOne(String name){
+        Optional<Hero> optionalHero = heroRepository.findHeroByName(name);
+        if(optionalHero.isPresent()){
+            return map(optionalHero.get());
+        }
+        throw new HeroNotFoundException("Hero with name: " + name + " not found");
+    }
+
+//    @Override
+//    public HeroDTO getOneE(String name){
+//        try {
+//            return getOne(name);
+//        }catch(NotFoundException e){
+//            throw new RuntimeException(e);
+//        }
+//    }
 }

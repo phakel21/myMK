@@ -1,6 +1,6 @@
 package com.Rpg.controller;
 
-import com.Rpg.dto.UserDTO;
+import com.Rpg.dto.MyUserDTO;
 import com.Rpg.service.MyUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -22,8 +22,8 @@ public class MyUserController {
     }
 
     @ModelAttribute("userDTO")
-    public UserDTO getModel() {
-        return new UserDTO();
+    public MyUserDTO getModel() {
+        return new MyUserDTO();
     }
 
     @GetMapping("/login")
@@ -37,9 +37,9 @@ public class MyUserController {
     }
 
     @PostMapping("/registration")
-    public String registration(@ModelAttribute("userDTO") UserDTO userDTO, BindingResult bindingResult) {
+    public String registration(@ModelAttribute("userDTO") MyUserDTO myUserDTO, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) return "registration";
-        myUserService.registration(userDTO);
+        myUserService.registration(myUserDTO);
         return "redirect:/login";
     }
 

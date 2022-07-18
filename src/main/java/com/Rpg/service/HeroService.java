@@ -32,4 +32,6 @@ public interface HeroService {
 
     void updateUser(String name, String updateUser);
 
+    HeroDTO getOne(String name);
+
 }

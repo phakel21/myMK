@@ -40,7 +40,7 @@
 
 <div class=" d-flex justify-content-center">
     <form:form method="POST"
-               action="/registration" modelAttribute="userDTO">
+               action="/registration" modelAttribute="myUserDTO">
 
         <div class="col-auto">
             <label for="login" class="col-form-label">Name</label>

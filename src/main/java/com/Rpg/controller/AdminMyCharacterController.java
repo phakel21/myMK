@@ -1,6 +1,6 @@
 package com.Rpg.controller;
 
-import com.Rpg.dto.CharacterDTO;
+import com.Rpg.dto.MyCharacterDTO;
 import com.Rpg.service.MyCharacterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -22,8 +22,8 @@ public class AdminMyCharacterController {
     }
 
     @ModelAttribute("myCharacter")
-    public CharacterDTO getModel() {
-        return new CharacterDTO();
+    public MyCharacterDTO getModel() {
+        return new MyCharacterDTO();
     }
 
     @GetMapping("/myCharacter")
@@ -33,9 +33,9 @@ public class AdminMyCharacterController {
     }
 
     @PostMapping("/myCharacter")
-    public String create(@ModelAttribute(name = "myCharacter") CharacterDTO characterDTO,
+    public String create(@ModelAttribute(name = "myCharacter") MyCharacterDTO myCharacterDTO,
                          @RequestParam(name = "file") MultipartFile image) throws IOException {
-        myCharacterService.create(characterDTO, image);
+        myCharacterService.create(myCharacterDTO, image);
 
         return "redirect:/admin/control/myCharacter";
     }
@@ -49,8 +49,8 @@ public class AdminMyCharacterController {
     @GetMapping("/myCharacter/{name}/edit")
     public String update(Model model,
                          @PathVariable("name") String name) {
-        CharacterDTO characterDTO = myCharacterService.getByName(name);
-        model.addAttribute("myCharacter", characterDTO);
+        MyCharacterDTO myCharacterDTO = myCharacterService.getOne(name);
+        model.addAttribute("myCharacter", myCharacterDTO);
         return "updateAdminCharacter";
     }
 

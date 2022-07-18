@@ -60,7 +60,7 @@ public class AdminMonsterController {
     @GetMapping("/monster/{name}/edit")
     public String getOne(Model model,
                          @PathVariable("name") String name) {
-        MonsterDTO monsterDTO = monsterService.getByName(name);
+        MonsterDTO monsterDTO = monsterService.getOne(name);
         model.addAttribute("monster", monsterDTO);
         List<LocationDTO> locationDTOS = locationService.getAll();
         model.addAttribute("locations", locationDTOS);

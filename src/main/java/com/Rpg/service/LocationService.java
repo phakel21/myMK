@@ -22,4 +22,6 @@ public interface LocationService {
     void updateName(String name, String updateName);
 
     void updateImage(String name, MultipartFile multipartFile) throws IOException;
+
+    LocationDTO getOne(String name);
 }

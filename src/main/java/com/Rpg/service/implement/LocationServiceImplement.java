@@ -1,5 +1,6 @@
 package com.Rpg.service.implement;
 
+import com.Rpg.config.exception.location.LocationNotFoundException;
 import com.Rpg.dto.LocationDTO;
 import com.Rpg.entity.Location;
 import com.Rpg.repository.LocationRepository;
@@ -112,12 +113,21 @@ public class LocationServiceImplement implements LocationService {
         save(location);
     }
 
+    @Override
+    public LocationDTO getOne(String name){
+        Optional<Location> optionalLocation = locationRepository.findLocationByName(name);
+        if(optionalLocation.isPresent()){
+            return map(optionalLocation.get());
+        }
+        throw new LocationNotFoundException("location: "+ name +" not found");
+    }
+
 
 
 //    @Override
 //    public void addLocation(String name) {
-//        Location location = new Location(name);
-//        if(locationRepository.countByName(name) > 0) throw new LocationExistException("Location with this name:" + name+ "already exist");
+//        location location = new location(name);
+//        if(locationRepository.countByName(name) > 0) throw new LocationExistException("location with this name:" + name+ "already exist");
 //        save(location);
 //    }
 }

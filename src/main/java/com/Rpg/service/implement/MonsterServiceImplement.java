@@ -1,5 +1,6 @@
 package com.Rpg.service.implement;
 
+import com.Rpg.config.exception.monster.MonsterNotFoundException;
 import com.Rpg.dto.HeroDTO;
 import com.Rpg.dto.MonsterDTO;
 import com.Rpg.entity.Monster;
@@ -16,6 +17,7 @@ import javax.transaction.Transactional;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class MonsterServiceImplement implements MonsterService {
@@ -186,6 +188,15 @@ public class MonsterServiceImplement implements MonsterService {
             monsterDTO.setCurrentHp(monsterDTO.getHp());
             saving(monsterDTO);
         }
+    }
+
+    @Override
+    public MonsterDTO getOne(String name) {
+        Optional<Monster> optionalMonster = monsterRepository.findMonsterByName(name);
+        if(optionalMonster.isPresent()){
+            return map(optionalMonster.get());
+        }
+        throw new MonsterNotFoundException("Monster: "+ name +" not found");
     }
 }
 

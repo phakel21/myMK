@@ -5,6 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 public interface HeroRepository extends JpaRepository<Hero, Long> {
@@ -14,5 +15,7 @@ public interface HeroRepository extends JpaRepository<Hero, Long> {
     void deleteByName(String name);
 
     List<Hero> findAllByMyUserLogin(String name);
+
+    Optional<Hero> findHeroByName(String name);
 
 }

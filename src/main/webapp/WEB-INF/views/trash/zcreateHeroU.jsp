@@ -41,13 +41,13 @@
             <form:input path="name" type="text" class="form-control" id="name"/>
         </div>
 
-        <c:forEach var="characterDTO" items="${charactersDTO}">
+        <c:forEach var="myCharacterDTO" items="${charactersDTO}">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="chooseCharacter" value="${characterDTO.name}"
+                <input class="form-check-input" type="checkbox" name="chooseCharacter" value="${myCharacterDTO.name}"
                        id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">
                     <tr>
-                        <td>${characterDTO.name}</td>
+                        <td>${myCharacterDTO.name}</td>
                     </tr>
                 </label>
             </div>

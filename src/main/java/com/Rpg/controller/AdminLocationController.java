@@ -52,7 +52,7 @@ public class AdminLocationController {
     @GetMapping("/location/{name}/edit")
     public String update(Model model,
                          @PathVariable("name") String name) {
-        LocationDTO locationDTO = locationService.getByName(name);
+        LocationDTO locationDTO = locationService.getOne(name);
         model.addAttribute("location", locationDTO);
         return "updateAdminLocation";
     }

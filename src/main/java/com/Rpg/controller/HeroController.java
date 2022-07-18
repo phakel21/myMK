@@ -60,7 +60,7 @@ public class HeroController {
     @GetMapping("/{heroName}/lobby")
     public String lobby(@PathVariable("heroName") String name,
                         Model model) {
-        HeroDTO hero = heroService.getByName(name);
+        HeroDTO hero = heroService.getOne(name);
         model.addAttribute("hero", hero);
         heroService.heroAlive(hero);
         return "lobby";
@@ -76,7 +76,7 @@ public class HeroController {
     @GetMapping("/edit/{name}")
     public String editAndGetOne(Model model,
                                 @PathVariable("name") String name) {
-        HeroDTO heroDTO = heroService.getByName(name);
+        HeroDTO heroDTO = heroService.getOne(name);
         model.addAttribute("hero", heroDTO);
         return "editHero";
     }

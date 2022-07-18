@@ -11,7 +11,7 @@
     <title>Hello Admin</title>
 </head>
 <body>
-<%--<a href="/admin/location">Location administration</a>--%>
+<%--<a href="/admin/location">location administration</a>--%>
 <%--<a href="/admin/hero">Hero administration</a>--%>
 
 <%--<div class="row">--%>
@@ -25,7 +25,7 @@
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <form:form class="form-horizontal" method="POST"
-                        modelAttribute="characterDTO" >
+                        modelAttribute="myCharacterDTO" >
                 <div class="form-group">
                     <label for="name" class="control-label col-sm-2">Name:</label>
                     <div class="col-sm-10">
