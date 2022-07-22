@@ -31,4 +31,6 @@ public interface MyCharacterService {
 
     MyCharacterDTO getOne(String name);
 
+    MyCharacter getMyCharacter(String name);
+
 }

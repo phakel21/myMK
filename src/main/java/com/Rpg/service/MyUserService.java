@@ -19,4 +19,8 @@ public interface MyUserService {
 
     MyUserDTO hetOne(String name);
 
+    MyUser getOne(String name);
+
+
+
 }

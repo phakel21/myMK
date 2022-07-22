@@ -112,7 +112,7 @@
                         </td>
                         <td>
                             <div>
-                                <a href="/admin/control/hero/delete/${hero.name}">
+                                <a href="/admin/control/hero/delete/${hero.name}/">
                                     <button class="btn btn-danger" type="submit">Delete</button>
                                 </a>
                             </div>

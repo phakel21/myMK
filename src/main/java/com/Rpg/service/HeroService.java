@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface HeroService {
 
-    void create(HeroDTO heroDTO, String chooseCharacter, String name);
+    void create(HeroDTO heroDTO, String chooseCharacter, String myUser);
 
     HeroDTO getByName(String name);
 
@@ -33,5 +33,11 @@ public interface HeroService {
     void updateUser(String name, String updateUser);
 
     HeroDTO getOne(String name);
+
+    String update(String name,HeroDTO heroDTO, String myCharacter, String myUser);
+
+    void createHeroDTO(HeroDTO heroDTO, String myCharacter, String myUser);
+
+    HeroDTO findHeroByMyUserAndName(String myUserName, String name);
 
 }

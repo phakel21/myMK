@@ -1,14 +1,18 @@
 package com.Rpg.service.implement;
 
 import com.Rpg.config.exception.hero.HeroNotFoundException;
+import com.Rpg.config.exception.myUser.MyUserDontHaveThisHeroException;
 import com.Rpg.dto.HeroDTO;
 import com.Rpg.dto.MonsterDTO;
+import com.Rpg.dto.MyUserDTO;
 import com.Rpg.entity.*;
 import com.Rpg.repository.HeroRepository;
 
 import com.Rpg.service.HeroService;
 import com.Rpg.service.MyCharacterService;
 import com.Rpg.service.MyUserService;
+import com.Rpg.validator.hero.create.HeroCreateValidator;
+import com.Rpg.validator.hero.update.HeroUpdateValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,11 +30,21 @@ public class HeroServiceImplement implements HeroService {
 
     private MyUserService myUserService;
 
+    private List<HeroCreateValidator> heroCreateValidators;
+
+    private List<HeroUpdateValidator> heroUpdateValidators;
+
     @Autowired
-    public HeroServiceImplement(HeroRepository heroRepository, MyCharacterService myCharacterService, MyUserService myUserService) {
+    public HeroServiceImplement(HeroRepository heroRepository,
+                                MyCharacterService myCharacterService,
+                                MyUserService myUserService,
+                                List<HeroCreateValidator> heroCreateValidators,
+                                List<HeroUpdateValidator> heroUpdateValidators) {
         this.heroRepository = heroRepository;
         this.myCharacterService = myCharacterService;
         this.myUserService = myUserService;
+        this.heroCreateValidators = heroCreateValidators;
+        this.heroUpdateValidators = heroUpdateValidators;
     }
 
     private Hero map(HeroDTO heroDTO) {
@@ -61,9 +75,14 @@ public class HeroServiceImplement implements HeroService {
 
     @Override
     public void create(HeroDTO heroDTO, String chooseCharacter, String name) {
-        heroDTO.setMyCharacter(myCharacterService.get(chooseCharacter));
-        heroDTO.setMyUser(myUserService.get(name));
-        save(map(heroDTO));
+        createHeroDTO(heroDTO, chooseCharacter, name);
+        Hero hero = map(heroDTO);
+
+        for (HeroCreateValidator heroCreateValidator : heroCreateValidators) {
+            heroCreateValidator.validate(hero);
+        }
+//        heroCreateValidators.stream().forEach(heroCreateValidator -> heroCreateValidator.validate(hero));
+        save(hero);
     }
 
     private void save(Hero hero) {
@@ -91,7 +110,12 @@ public class HeroServiceImplement implements HeroService {
     @Override
     @Transactional
     public void deleteByName(String name) {
+        Optional<Hero> optionalHero = heroRepository.findHeroByName(name);
+        if (!optionalHero.isPresent()) {
+            throw new HeroNotFoundException("Hero with name: " + name + " not found");
+        }
         heroRepository.deleteByName(name);
+
     }
 
     @Override
@@ -152,20 +176,41 @@ public class HeroServiceImplement implements HeroService {
     }
 
     @Override
-    public HeroDTO getOne(String name){
+    public String update(String name, HeroDTO heroDTO, String myCharacter, String myUser) {
+        createHeroDTO(heroDTO, myCharacter, myUser);
+        Hero hero = findOne(name);
+        for (HeroUpdateValidator heroUpdateValidator : heroUpdateValidators) {
+            heroUpdateValidator.validate(hero, heroDTO);
+        }
+        save(hero);
+        return hero.getName();
+
+    }
+
+    @Override
+    public void createHeroDTO(HeroDTO heroDTO, String myCharacter, String myUser) {
+        heroDTO.setMyCharacter(myCharacterService.get(myCharacter));
+        heroDTO.setMyUser(myUserService.get(myUser));
+    }
+
+    @Override
+    public HeroDTO getOne(String name) {
         Optional<Hero> optionalHero = heroRepository.findHeroByName(name);
-        if(optionalHero.isPresent()){
+        if (optionalHero.isPresent()) {
             return map(optionalHero.get());
         }
         throw new HeroNotFoundException("Hero with name: " + name + " not found");
     }
 
-//    @Override
-//    public HeroDTO getOneE(String name){
-//        try {
-//            return getOne(name);
-//        }catch(NotFoundException e){
-//            throw new RuntimeException(e);
-//        }
-//    }
+    @Override
+    public HeroDTO findHeroByMyUserAndName(String myUserName, String name) {
+        MyUser myUser = myUserService.getOne(myUserName);
+        Hero heroByMyUserAndName = heroRepository.findHeroByMyUserAndName(myUser, name);
+        if(heroByMyUserAndName == null){
+            throw new MyUserDontHaveThisHeroException("User "+ myUserName + " don't have hero " + name);
+        }
+        HeroDTO heroByMyUserAndName1 = map(heroByMyUserAndName);
+
+        return heroByMyUserAndName1;
+    }
 }
