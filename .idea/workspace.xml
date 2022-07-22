@@ -2,63 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f349ad73-4bd5-47e6-aa45-759284c39202" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/handler/ExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/update/implement/HeroUpdateMyUserValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/GameApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/GameApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/handler/ExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/handler/ExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminHeroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminHeroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminLocationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminLocationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminMonsterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminMonsterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminMyCharacterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminMyCharacterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/controller/HeroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/controller/HeroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/controller/MyUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/controller/MyUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/dto/CharacterDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/dto/MyCharacterDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/dto/MyUserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/dto/HeroDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/dto/HeroDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/repository/HeroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/repository/HeroRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/repository/LocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/repository/LocationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/repository/MonsterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/repository/MonsterRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/repository/MyCharacterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/repository/MyCharacterRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/repository/MyUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/repository/MyUserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/service/HeroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/service/HeroService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/service/LocationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/service/LocationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/service/MonsterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/service/MonsterService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/service/MyCharacterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/service/MyCharacterService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/service/MyUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/service/MyUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/HeroServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/HeroServiceImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/LocationServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/LocationServiceImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MonsterServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MonsterServiceImplement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MyCharacterServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MyCharacterServiceImplement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MyUserServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MyUserServiceImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zcreateCharacter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zcreateCharacter.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zcreateHero.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zcreateHero.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zcreateHeroU.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zcreateHeroU.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zcreateLocation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zcreateLocation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zgetCharacter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zgetCharacter.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zgetLocation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zgetLocation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zheroAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zheroAdmin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zheroClassAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trash/zheroClassAdmin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/getHeroes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/getHeroes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/GameApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/GameApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/config/exception/handler/ExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/config/exception/handler/ExceptionHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/controller/AdminHeroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/controller/AdminHeroController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/controller/AdminLocationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/controller/AdminLocationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/controller/AdminMonsterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/controller/AdminMonsterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/controller/AdminMyCharacterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/controller/AdminMyCharacterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/controller/HeroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/controller/HeroController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/controller/MyUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/controller/MyUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/dto/CharacterDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/dto/UserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/repository/HeroRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/repository/HeroRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/repository/LocationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/repository/LocationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/repository/MonsterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/repository/MonsterRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/repository/MyCharacterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/repository/MyCharacterRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/repository/MyUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/repository/MyUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/dto/HeroDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/dto/HeroDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/service/HeroService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/service/HeroService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/service/LocationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/service/LocationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/service/MonsterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/service/MonsterService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/service/MyCharacterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/service/MyCharacterService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/service/MyUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/service/MyUserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/service/implement/HeroServiceImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/service/implement/HeroServiceImplement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/service/implement/LocationServiceImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/service/implement/LocationServiceImplement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/service/implement/MonsterServiceImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/service/implement/MonsterServiceImplement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/service/implement/MyCharacterServiceImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/service/implement/MyCharacterServiceImplement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpg/service/implement/MyUserServiceImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpg/service/implement/MyUserServiceImplement.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,32 +56,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdminMyCharacterController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminMyCharacterController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-305">
-              <caret line="53" column="38" lean-forward="true" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MyCharacterServiceImplement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MyCharacterServiceImplement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="152" column="79" selection-start-line="152" selection-start-column="79" selection-end-line="152" selection-end-column="79" />
+            <state relative-caret-position="273">
+              <caret line="59" column="43" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="43" />
               <folding>
-                <element signature="e#727#744#1" expanded="true" />
+                <element signature="e#3182#3183#0" expanded="true" />
+                <element signature="e#3243#3244#0" expanded="true" />
+                <element signature="e#3709#3710#0" expanded="true" />
+                <element signature="e#3745#3746#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyUserServiceImplement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MyUserServiceImplement.java">
+      <file leaf-file-name="updateAdminCharacter.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updateAdminCharacter.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="120" column="72" selection-start-line="120" selection-start-column="72" selection-end-line="120" selection-end-column="72" />
+            <state relative-caret-position="147">
+              <caret line="157" column="46" lean-forward="true" selection-start-line="157" selection-start-column="46" selection-end-line="157" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageServiceImplement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/ImageServiceImplement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeroServiceImplement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/HeroServiceImplement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="207" column="80" selection-start-line="207" selection-start-column="80" selection-end-line="207" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#map#0;class#HeroServiceImplement#0" />
+                <element signature="method#map#2;class#HeroServiceImplement#0" />
+                <element signature="method#saving#0;class#HeroServiceImplement#0" />
+                <element signature="method#kick#0;class#HeroServiceImplement#0" />
+                <element signature="method#heroAlive#0;class#HeroServiceImplement#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MvcConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/MvcConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-84">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-218">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonsterServiceImplement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MonsterServiceImplement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="73" column="59" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminMyCharacterController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminMyCharacterController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -123,80 +154,8 @@
       <file leaf-file-name="MyCharacterService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/MyCharacterService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyUserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/MyUserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyUserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/MyUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyCharacterDTO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/dto/MyCharacterDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeroController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/HeroController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="48" column="74" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeroServiceImplement.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/HeroServiceImplement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="97" column="56" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#HeroServiceImplement#0;class#HeroServiceImplement#0" />
-                <element signature="method#map#0;class#HeroServiceImplement#0" />
-                <element signature="method#map#1;class#HeroServiceImplement#0" />
-                <element signature="method#map#2;class#HeroServiceImplement#0" />
-                <element signature="method#create#0;class#HeroServiceImplement#0" />
-                <element signature="e#2781#2782#0" expanded="true" />
-                <element signature="e#2833#2834#0" expanded="true" />
-                <element signature="e#2891#2892#0" expanded="true" />
-                <element signature="e#2955#2956#0" expanded="true" />
-                <element signature="method#saving#0;class#HeroServiceImplement#0" />
-                <element signature="method#kick#0;class#HeroServiceImplement#0" />
-                <element signature="method#heroAlive#0;class#HeroServiceImplement#0" />
-                <element signature="method#updateName#0;class#HeroServiceImplement#0" />
-                <element signature="method#updateCharacter#0;class#HeroServiceImplement#0" />
-                <element signature="method#updateUser#0;class#HeroServiceImplement#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocationController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/LocationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-116">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="281">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -232,57 +191,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/UserServiceImplement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/entity/myUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/entity/Character.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/repository/CharacterRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/CharacterService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/controller/MyUserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/entity/MyCharacter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/entity/Hero.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/entity/MyUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/dto/HeroDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/getHeroes.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lobby.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminControlPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updateAdminHero.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fight.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/chooseLocation.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/MvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/chooseHero.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/handler/NotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/NotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/repository/HeroRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/HeroNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/HeroService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminHeroController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/HeroServiceImplement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/repository/LocationRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/LocationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminLocationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/LocationServiceImplement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/Location/LocationNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/handler/ExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/monster/MonsterNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/repository/MonsterRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/MonsterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MonsterServiceImplement.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminMonsterController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/myCharacter/MyCharacterNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/myUser/MyUserNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Rpg/repository/MyCharacterRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/repository/MyUserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Rpg/dto/MyCharacterDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/MyCharacterService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/MyUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MyCharacterServiceImplement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MyUserServiceImplement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/HeroCreateValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/HeroHasNameValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/hero/HeroDontHaveMyCharacterException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/Tet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/GameApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/DontHaveNameException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/hero/HeroDontHaveNameException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/update/HeroUpdateValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/update/implement/HeroHasNameValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminMyCharacterController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updHero.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/MyCharacterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/update/implement/HeroUpdateMyUserValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/update/HeroUpdateValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MyCharacterServiceImplement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/update/implement/HeroUpdateMyCharacterValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/update/implement/HeroUpdateNameValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/delete/HeroDeleteValidatir.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/delete/HeroDeleteValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/delete/implement/HeroDeleteValidatorImplement.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/getHeroes.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/implement/HeroHaasMyCharacterValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/implement/HeroHaxsMyCharacterValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/implement/HeroHasAllDataValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/hero/HeroDontHaveAllDataException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/implement/HeroHasMyCharacterValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/implement/HeroHasMyUserValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/hero/HeroDontHaveMyUserException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/implement/HeroHasNameValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/implement/AllDAta.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/check/HeroCheckValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/check/implement/HeroCheckImplementValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/dto/HeroDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminHeroController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/repository/MyUserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/repository/HeroRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Rpg/controller/HeroController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/HeroService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/myUser/MyUserDontHaveThisHeroException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/handler/ExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MyUserServiceImplement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/MyUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/HeroServiceImplement.java" />
       </list>
     </option>
   </component>
@@ -319,7 +278,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="550" />
     <option name="y" value="320" />
     <option name="width" value="980" />
@@ -389,6 +348,28 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Rpg" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myMk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myMk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Rpg" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="myUser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myMk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myMk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Rpg" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -399,6 +380,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Rpg" type="462c0819:PsiDirectoryNode" />
               <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myMk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myMk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Rpg" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myMk" type="b2602c69:ProjectViewProjectNode" />
@@ -428,6 +418,52 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="implement" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myMk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myMk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Rpg" type="462c0819:PsiDirectoryNode" />
+              <item name="hero" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myMk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myMk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myMk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myMk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myMk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myMk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myMk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myMk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myMk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myMk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -448,16 +484,18 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26551723" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.Rpg.config.exception.hero" />
       <recent name="com.Rpg.program.person" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -483,6 +521,28 @@
   <component name="RunManager" selected="Spring Boot.GameApplication">
     <configuration name="GameApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Rpg.GameApplication" />
+      <module name="game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Rpg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Rpg.Test" />
+      <module name="game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Rpg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Tet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Rpg.Tet" />
       <module name="game" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -694,10 +754,14 @@
       <item itemvalue="Spring Boot.GameApplication" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.31" />
       <item itemvalue="Application.GameApplication" />
+      <item itemvalue="Application.Tet" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.GameApplication" />
+        <item itemvalue="Application.Tet" />
       </list>
     </recent_temporary>
   </component>
@@ -827,11 +891,14 @@
       <workItem from="1654802878842" duration="224000" />
       <workItem from="1655592249337" duration="629000" />
       <workItem from="1657192996548" duration="2922000" />
+      <workItem from="1658227317429" duration="18137000" />
+      <workItem from="1658405102876" duration="23138000" />
+      <workItem from="1658508008023" duration="4331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="686862000" />
+    <option name="totallyTimeSpent" value="732468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -843,10 +910,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5389262" side_tool="true" weight="0.18945868" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.53959733" side_tool="true" weight="0.5669516" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32905984" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3295302" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -856,7 +924,7 @@
       <window_info id="Structure" order="2" sideWeight="0.5014245" side_tool="true" weight="0.21946308" />
       <window_info anchor="right" id="Ant Build" order="10" weight="0.24966443" />
       <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.5925926" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.43589744" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49804688" weight="0.3945869" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -864,74 +932,48 @@
       <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.32905984" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.46107382" weight="0.43447295" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4604027" visible="true" weight="0.43589744" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.0" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4985755" visible="true" weight="0.3228188" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4985755" visible="true" weight="0.3228188" />
       <window_info anchor="right" id="Bean Validation" order="7" weight="0.3295302" />
       <window_info id="Web" order="0" sideWeight="0.5014245" side_tool="true" weight="0.28791946" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3048433" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.46107382" weight="0.2777778" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5389262" side_tool="true" weight="0.18945868" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4985755" visible="true" weight="0.3181208" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="right" id="Ant Build" order="10" weight="0.24966443" />
-      <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.32905984" />
-      <window_info anchor="right" id="Bean Validation" order="7" weight="0.3295302" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.0" />
-      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32905984" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3295302" />
-      <window_info id="Web" order="0" sideWeight="0.5014245" side_tool="true" weight="0.28791946" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.32905984" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
-      <window_info id="Structure" order="2" sideWeight="0.5014245" side_tool="true" weight="0.21946308" />
-      <window_info anchor="right" id="Database" order="9" side_tool="true" weight="0.3295302" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.5925926" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49804688" weight="0.3945869" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3048433" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32905984" />
       <window_info id="Designer" order="3" />
       <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4604027" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32905984" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.46174496" visible="true" weight="0.6851852" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.24966443" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.24966443" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.0" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.53825504" side_tool="true" weight="0.6837607" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.53959733" side_tool="true" weight="0.5669516" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49804688" weight="0.3945869" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32905984" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.32905984" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32905984" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3295302" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4985755" visible="true" weight="0.32013422" />
-      <window_info anchor="right" id="Database" order="10" side_tool="true" weight="0.3295302" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3048433" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4985755" visible="true" weight="0.3228188" />
+      <window_info anchor="right" id="Database" order="9" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info id="Web" order="0" sideWeight="0.5014245" side_tool="true" weight="0.28791946" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -939,9 +981,8 @@
       <window_info id="Structure" order="2" sideWeight="0.5014245" side_tool="true" weight="0.21946308" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3048433" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.43589744" />
       <window_info anchor="right" id="Bean Validation" order="7" weight="0.3295302" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.35897437" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -955,7 +996,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="334" />
+      <option name="time" value="354" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -963,328 +1004,86 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/MonsterService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-496">
-          <caret line="9" column="108" lean-forward="true" selection-start-line="9" selection-start-column="108" selection-end-line="9" selection-end-column="108" />
+        <state relative-caret-position="635">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updateAdminMonster.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/update/implement/HeroUpdateMyCharacterValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="28" column="81" selection-start-line="28" selection-start-column="81" selection-end-line="28" selection-end-column="81" />
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/chooseLocation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/FightServiceImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="28" selection-start-line="24" selection-start-column="16" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/ImageServiceImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/chooseHero.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lobby.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fight.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updateAdminCharacter.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/createHero.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="65" column="14" selection-start-line="63" selection-start-column="8" selection-end-line="65" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/GameApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminControlPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/FightController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/MvcConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/update/implement/HeroUpdateMyUserValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/WebSecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/update/implement/HeroUpdateNameValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.30/tomcat-embed-core-9.0.30.jar!/javax/servlet/http/HttpServlet.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/delete/HeroDeleteValidator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/delete/implement/HeroDeleteValidatorImplement.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/update/HeroUpdateValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="233" selection-start-line="233" selection-end-line="233" />
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/repository/HeroRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/getHeroes.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="305">
+          <caret line="114" column="67" selection-start-line="114" selection-start-column="67" selection-end-line="114" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/HeroService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updateAdminHero.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="1165">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminHeroController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="68" column="54" lean-forward="true" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/ImageService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/implement/HeroHasAllDataValidator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/hero/HeroDontHaveMyUserException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/LocationService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/implement/HeroHasMyCharacterValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminLocationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/NotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/hero/HeroNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/LocationServiceImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/location/LocationNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/handler/ExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="378">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/monster/MonsterNotFoundException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/implement/HeroHasMyUserValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="357">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/repository/MonsterRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/repository/LocationRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/MonsterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MonsterServiceImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="197" column="9" lean-forward="true" selection-start-line="197" selection-start-column="9" selection-end-line="197" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/myUser.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminMonsterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="62" column="54" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/myCharacter/MyCharacterNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/myUser/MyUserNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/repository/MyCharacterRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/repository/MyUserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/check/HeroCheckValidator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/dto/MyCharacterDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1292,87 +1091,294 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/MyCharacterService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/entity/MyCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        <state relative-caret-position="483">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/MyUserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/dto/HeroDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="189">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MyCharacterServiceImplement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/check/implement/HeroCheckImplementValidator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/HeroCreateValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="152" column="79" selection-start-line="152" selection-start-column="79" selection-end-line="152" selection-end-column="79" />
+        <state relative-caret-position="126">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/implement/AllDAta.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/validator/hero/create/implement/HeroHasNameValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <element signature="e#727#744#1" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MyUserServiceImplement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminHeroController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="120" column="72" selection-start-line="120" selection-start-column="72" selection-end-line="120" selection-end-column="72" />
+        <state relative-caret-position="966">
+          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminMyCharacterController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.3.RELEASE/spring-aop-5.2.3.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret line="53" column="38" lean-forward="true" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+        <state relative-caret-position="107">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/LocationController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.3.RELEASE/spring-aop-5.2.3.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="207">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/MyUserController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.3.RELEASE/spring-core-5.2.3.RELEASE.jar!/org/springframework/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="107">
+          <caret line="322" selection-start-line="322" selection-end-line="322" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/hero/HeroDontHaveAllDataException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/hero/HeroDontHaveMyCharacterException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/hero/HeroDontHaveNameException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/hero/HeroNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/repository/MyUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/DontHaveNameException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/NotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/myUser/MyUserNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/myUser/MyUserDontHaveThisHeroException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="44" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/exception/handler/ExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/repository/HeroRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/HeroController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="48" column="74" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="74" />
+        <state relative-caret-position="35">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/HeroService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/MyUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MyUserServiceImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="129" column="27" lean-forward="true" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
+          <folding>
+            <element signature="e#3735#3736#0" expanded="true" />
+            <element signature="e#3771#3772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fight.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-218">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MonsterServiceImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="73" column="59" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/controller/AdminMyCharacterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/MyCharacterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/ImageServiceImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/HeroServiceImplement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="97" column="56" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="56" />
+        <state relative-caret-position="265">
+          <caret line="207" column="80" selection-start-line="207" selection-start-column="80" selection-end-line="207" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#HeroServiceImplement#0;class#HeroServiceImplement#0" />
             <element signature="method#map#0;class#HeroServiceImplement#0" />
-            <element signature="method#map#1;class#HeroServiceImplement#0" />
             <element signature="method#map#2;class#HeroServiceImplement#0" />
-            <element signature="method#create#0;class#HeroServiceImplement#0" />
-            <element signature="e#2781#2782#0" expanded="true" />
-            <element signature="e#2833#2834#0" expanded="true" />
-            <element signature="e#2891#2892#0" expanded="true" />
-            <element signature="e#2955#2956#0" expanded="true" />
             <element signature="method#saving#0;class#HeroServiceImplement#0" />
             <element signature="method#kick#0;class#HeroServiceImplement#0" />
             <element signature="method#heroAlive#0;class#HeroServiceImplement#0" />
-            <element signature="method#updateName#0;class#HeroServiceImplement#0" />
-            <element signature="method#updateCharacter#0;class#HeroServiceImplement#0" />
-            <element signature="method#updateUser#0;class#HeroServiceImplement#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Rpg/service/implement/MyCharacterServiceImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="59" column="43" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="43" />
+          <folding>
+            <element signature="e#3182#3183#0" expanded="true" />
+            <element signature="e#3243#3244#0" expanded="true" />
+            <element signature="e#3709#3710#0" expanded="true" />
+            <element signature="e#3745#3746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updateAdminCharacter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="157" column="46" lean-forward="true" selection-start-line="157" selection-start-column="46" selection-end-line="157" selection-end-column="46" />
         </state>
       </provider>
     </entry>

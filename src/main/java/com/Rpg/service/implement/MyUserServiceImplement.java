@@ -120,4 +120,13 @@ public class MyUserServiceImplement implements MyUserService, UserDetailsService
         }
         throw new MyUserNotFoundException("User: "+ name +" not found");
     }
+
+    @Override
+    public MyUser getOne(String name) {
+        Optional<MyUser> optionalMyUser = myUserRepository.findMyUserByLogin(name);
+        if (optionalMyUser.isPresent()){
+            return optionalMyUser.get();
+        }
+        throw new MyUserNotFoundException("User: "+ name +" not found");
+    }
 }

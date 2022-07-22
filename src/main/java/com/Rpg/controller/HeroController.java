@@ -59,8 +59,9 @@ public class HeroController {
 
     @GetMapping("/{heroName}/lobby")
     public String lobby(@PathVariable("heroName") String name,
+                        @PathVariable("userName")String userName,
                         Model model) {
-        HeroDTO hero = heroService.getOne(name);
+        HeroDTO hero = heroService.findHeroByMyUserAndName(userName, name);
         model.addAttribute("hero", hero);
         heroService.heroAlive(hero);
         return "lobby";

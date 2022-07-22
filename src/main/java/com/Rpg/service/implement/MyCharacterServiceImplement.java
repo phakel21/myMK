@@ -8,6 +8,7 @@ import com.Rpg.repository.MyCharacterRepository;
 
 import com.Rpg.service.ImageService;
 import com.Rpg.service.MyCharacterService;
+import com.Rpg.validator.hero.create.HeroCreateValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Lazy;
@@ -30,10 +31,14 @@ public class MyCharacterServiceImplement implements MyCharacterService {
 
     private ImageService imageService;
 
+    private List<HeroCreateValidator> heroCreateValidators;
+
     @Autowired
-    public MyCharacterServiceImplement(@Lazy MyCharacterRepository myCharacterRepository, ImageService imageService) {
+    public MyCharacterServiceImplement(@Lazy MyCharacterRepository myCharacterRepository,
+                                       ImageService imageService) {
         this.myCharacterRepository = myCharacterRepository;
         this.imageService = imageService;
+        this.heroCreateValidators = heroCreateValidators;
     }
 
     private MyCharacter map(MyCharacterDTO myCharacterDTO) {
@@ -69,6 +74,9 @@ public class MyCharacterServiceImplement implements MyCharacterService {
         MyCharacter myCharacter = map(myCharacterDTO);
         String resultFileName = imageService.saveFile(charactersPath, multipartFile);
         myCharacter.setImage(resultFileName);
+
+
+
         save(myCharacter);
     }
 
@@ -149,6 +157,15 @@ public class MyCharacterServiceImplement implements MyCharacterService {
         Optional<MyCharacter> optionalMyCharacter = myCharacterRepository.findMyCharacterByName(name);
         if(optionalMyCharacter.isPresent()){
             return map(optionalMyCharacter.get());
+        }
+        throw new MyCharacterNotFoundException("Character: "+ name +" not found");
+    }
+
+    @Override
+    public MyCharacter getMyCharacter(String name) {
+        Optional<MyCharacter> optionalMyCharacter = myCharacterRepository.findMyCharacterByName(name);
+        if(optionalMyCharacter.isPresent()){
+            return optionalMyCharacter.get();
         }
         throw new MyCharacterNotFoundException("Character: "+ name +" not found");
     }

@@ -9,8 +9,7 @@ import lombok.*;
 @Getter
 @Setter
 public class HeroDTO {
-
-    private Long id;
+        private Long id;
 
     private String name;
 
